@@ -15,10 +15,6 @@ public class Radio {
     }
 
 
-    public int getCurrentVolume() {
-        return currentVolume;
-    }
-
     public void setCurrentVolume(int newCurrentVolume) {
         if (newCurrentVolume < minVolume) {
             return;
@@ -27,10 +23,6 @@ public class Radio {
             return;
         }
         currentVolume = newCurrentVolume;
-    }
-
-    public int getCurrentStation() {
-        return currentStation;
     }
 
     public void setCurrentStation(int newCurrentStation) {
